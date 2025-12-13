@@ -4,7 +4,8 @@
 
 const CHATBOT_CONFIG = {
     // 🔗 N8N WEBHOOK URL - PASTE YOUR WEBHOOK URL HERE
-    webhookUrl: 'https://team4aimlprj.app.n8n.cloud/webhook/chatbot',
+    // webhookUrl: 'https://team4aimlprj.app.n8n.cloud/webhook/chatbot',
+    webhookUrl: 'http://localhost:5678/webhook/chatbot',
     
     // Chatbot UI Settings
     botName: 'ShopHub Assistant',
@@ -497,3 +498,4 @@ setTimeout(() => {
 window.chatbotToggle = toggleChat;
 window.chatbotSendQuickAction = sendQuickAction;
 window.chatbotShowNotificationBadge = showNotificationBadge;
+
